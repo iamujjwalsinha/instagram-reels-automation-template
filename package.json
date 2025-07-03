@@ -1,0 +1,39 @@
+{
+  "name": "instagram-reels-automation-template",
+  "version": "1.0.0",
+  "description": "A template for automating Instagram Reels posting using the Instagram Graph API.",
+  "main": "src/InstagramReelsAutomation.js",
+  "scripts": {
+    "post": "node post-reel.js",
+    "start": "node post-reel.js"
+  },
+  "keywords": [
+    "instagram",
+    "reels",
+    "automation",
+    "instagram-graph-api",
+    "social-media",
+    "template",
+    "content-publishing",
+    "meta",
+    "nodejs"
+  ],
+  "author": "Ujjwal Sinha <serverlessway@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/instagram-reels-automation-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/instagram-reels-automation-template/issues"
+  },
+  "homepage": "https://github.com/your-username/instagram-reels-automation-template#readme",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+} 
